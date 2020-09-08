@@ -8,6 +8,10 @@
 # pin when possible.  Writing an issue against the offending project and
 # linking to it here is good.
 
+# Performing incremental upgrade of celery to latest version
+celery<4.3
+django-celery-results<1.1.0
+
 # Stay on the latest LTS release of Django
 Django<2.3
 
